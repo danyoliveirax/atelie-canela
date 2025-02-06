@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê Canela</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./Logotipo-Principal.jpg" alt="Logo da Loja" class="logo">
+        </div>
+    </header>
+    <div class="menu-container">
+        <div class="card" onclick="showDetails('Bolo de Chocolate', 'Delicioso bolo feito com cacau 70%.')">
+            <img src="https://via.placeholder.com/250" alt="Brigadeiro">
+            <h3>Brigadeiro</h3>
+            <p>Delicioso brigadeiro feito com chocolate belga.</p>
+        </div>
+        <div class="card" onclick="showDetails('Bolo de Chocolate', 'Delicioso bolo feito com cacau 70%.')">
+            <img src="https://via.placeholder.com/250" alt="Beijinho">
+            <h3>Beijinho</h3>
+            <p>Clássico beijinho de coco com toque de leite condensado.</p>
+        </div>
+        <div class="card" onclick="showDetails('Bolo de Chocolate', 'Delicioso bolo feito com cacau 70%.')">
+            <img src="https://via.placeholder.com/250" alt="Bolo de Pote">
+            <h3>Bolo de Pote</h3>
+            <p>Camadas de bolo fofinho e recheios irresistíveis.</p>
+        </div>
+        <div class="card" onclick="showDetails('Bolo de Chocolate', 'Delicioso bolo feito com cacau 70%.')">
+            <img src="https://via.placeholder.com/250" alt="Cupcake">
+            <h3>Cupcake</h3>
+            <p>Pequeno, fofo e cheio de sabor, com cobertura cremosa.</p>
+        </div>
+        <div id="modal" class="modal">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <button class="modal-close" onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
